@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background: linear-gradient(120deg,black,#4b494a);
+    color: white;
+}
+
+.container{
+    /* border: 1px solid yellow; */
+    border-radius: 15px;
+    height: 550px;
+    padding: 5px 10px;
+}
+
+
+
+.image{
+    height: 74px;
+    padding-top: 2px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+h3{
+    font-size: 42px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h2{
+    padding-top: 60px;
+    padding-left: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+}
+
+.petittitre{
+    font-family: serif;
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+.paragraphe{
+    font-size: 16px;
+    padding-left: 100px;
+}
+
+
+
+/* .container::after {
+    content: '';
+    height: 70em;
+    width: 70em;
+    background: rgba(234,217,191, 0.5);
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    margin-top: 160px; 
+} */
+
+
+
+
+
+
+@media (max-width:600px) {
+    .nav{
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    .logo{
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu{
+        display: grid;
+        grid-auto-flow: column;
+        column-gap: 10px;
+    }
+
+    h2{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .petittitre{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paragraphe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image2{
+        width: 200px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+
+@media (min-width:601px) and (max-width:800px) {
+    
+}
